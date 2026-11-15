@@ -43,7 +43,7 @@ Conçue pour les équipes commerciales et les décideurs, elle transforme un flu
 | | |
 |---|---|
 | 📡 **Veille en continu** | Détection automatique des nouveaux avis, filtrée sur vos mots-clés (FR / arabe / anglais). |
-| 🗂️ **Organisation façon Outlook** | Regroupement par période, dossiers personnalisés, veilles enregistrées, badges de non-lus. |
+| 🗂️ **Organisation avancée** | Regroupement par période, dossiers personnalisés, veilles enregistrées, badges de non-lus. |
 | ⏱️ **Priorité par échéance** | Les avis encore soumissionnables remontent en tête, les clôturés passent en bas. |
 | 📥 **Archivage** | Rangez les avis traités (gagnés / perdus) sans les supprimer. |
 | 📄 **Export & synthèses** | Fiche commerciale, synthèse hebdomadaire PDF, tableau récapitulatif Excel. |
