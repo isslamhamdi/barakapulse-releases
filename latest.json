@@ -1,6 +1,6 @@
 {
-  "version": "2.1.0",
-  "url": "https://github.com/isslamhamdi/barakapulse-releases/releases/latest/download/BarakaPulse-v2.1.0.dmg",
+  "version": "2.2.0",
+  "url": "https://github.com/isslamhamdi/barakapulse-releases/releases/latest/download/BarakaPulse-v2.2.0.dmg",
   "date": "2026-11-15",
-  "notes": "•  Interface épurée : l'état de la veille tient désormais dans un seul indicateur clair.\n•  Fiche d'un avis : un bouton vert unique « Télécharger l'avis + scan ».\n•  Tableau de bord simplifié et plus lisible.\n•  Réglages › Connexion : clé d'accès et état de synchronisation en temps réel.\n•  Écran d'accueil : libellés clarifiés.\n•  Corrections diverses et synchronisation optimisée."
+  "notes": "•  Mise à jour automatique : l'app se télécharge, s'installe et redémarre toute seule — plus rien à glisser dans Applications.\n•  Interface épurée : état de la veille consolidé en un seul indicateur.\n•  Fiche d'un avis : bouton vert unique « Télécharger l'avis + scan ».\n•  Tableau de bord simplifié et plus lisible.\n•  Réglages › Connexion : clé d'accès et état de synchronisation en temps réel.\n•  Corrections diverses et synchronisation optimisée."
 }
