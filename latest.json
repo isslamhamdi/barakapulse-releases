@@ -1,6 +1,6 @@
 {
-  "version": "2.4.5",
-  "url": "https://github.com/isslamhamdi/barakapulse-releases/releases/latest/download/BarakaPulse-v2.4.5.dmg",
+  "version": "2.4.6",
+  "url": "https://github.com/isslamhamdi/barakapulse-releases/releases/latest/download/BarakaPulse-v2.4.6.dmg",
   "date": "2026-11-15",
-  "notes": "Correction : la fen\u00eatre \u00c0 propos reste opaque (plus de transparence sur le contenu derri\u00e8re)."
+  "notes": "Fen\u00eatre \u00c0 propos totalement isol\u00e9e des effets de transparence et de redimensionnement."
 }
