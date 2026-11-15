@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo.png" alt="BarakaPulse" width="128" height="128" />
+<img src="https://raw.githubusercontent.com/isslamhamdi/barakapulse-releases/main/assets/logo.png" alt="BarakaPulse" width="128" height="128" />
 
 # BarakaPulse
 
