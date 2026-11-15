@@ -1,6 +1,6 @@
 {
-  "version": "2.2.1",
-  "url": "https://github.com/isslamhamdi/barakapulse-releases/releases/latest/download/BarakaPulse-v2.2.1.dmg",
+  "version": "2.3.1",
+  "url": "https://github.com/isslamhamdi/barakapulse-releases/releases/latest/download/BarakaPulse-v2.3.1.dmg",
   "date": "2026-11-15",
-  "notes": "•  Mise à jour automatique : l'app se télécharge, s'installe et redémarre toute seule, dans la même fenêtre.\n•  Correctif de maintenance et petites optimisations."
+  "notes": "•  Mise à jour automatique avec barre de progression (Mo / Mo) : l'app se télécharge, s'installe et redémarre toute seule, dans la même fenêtre.\n•  Petites optimisations."
 }
