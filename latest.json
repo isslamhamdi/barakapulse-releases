@@ -1,6 +1,6 @@
 {
-  "version": "2.4.6",
-  "url": "https://github.com/isslamhamdi/barakapulse-releases/releases/latest/download/BarakaPulse-v2.4.6.dmg",
+  "version": "2.4.7",
+  "url": "https://github.com/isslamhamdi/barakapulse-releases/releases/latest/download/BarakaPulse-v2.4.7.dmg",
   "date": "2026-11-15",
-  "notes": "Fen\u00eatre \u00c0 propos totalement isol\u00e9e des effets de transparence et de redimensionnement."
+  "notes": "D\u00e9tection des mises \u00e0 jour instantan\u00e9e (plus de blocage par le cache CDN)."
 }
