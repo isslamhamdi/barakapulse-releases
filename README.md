@@ -30,7 +30,7 @@
 
 ## ✨ Présentation
 
-**BarakaPulse** est une application macOS native dédiée à la **veille des appels d'offres et marchés publics** en Algérie. Elle détecte en continu les opportunités pertinentes, les classe, les priorise par échéance et les présente dans une interface soignée, pensée comme un client de messagerie professionnel.
+**BarakaPulse** est une application macOS native dédiée à la **veille des appels d'offres et marchés publics** en Algérie. Elle détecte en continu les opportunités pertinentes, les classe, les priorise par échéance et les présente dans une interface soignée, claire et professionnelle.
 
 Conçue pour les équipes commerciales et les décideurs, elle transforme un flux dispersé d'avis publics en un **tableau de bord décisionnel** clair : ce qui est ouvert, ce qui est urgent, ce qui mérite une réponse.
 
@@ -43,7 +43,7 @@ Conçue pour les équipes commerciales et les décideurs, elle transforme un flu
 | | |
 |---|---|
 | 📡 **Veille en continu** | Détection automatique des nouveaux avis, filtrée sur vos mots-clés (FR / arabe / anglais). |
-| 🗂️ **Organisation avancée** | Regroupement par période, dossiers personnalisés, veilles enregistrées, badges de non-lus. |
+| 🗂️ **Organisation avancée** | Tri par période, dossiers personnalisés, recherches sauvegardées et repérage des avis à traiter. |
 | ⏱️ **Priorité par échéance** | Les avis encore soumissionnables remontent en tête, les clôturés passent en bas. |
 | 📥 **Archivage** | Rangez les avis traités (gagnés / perdus) sans les supprimer. |
 | 📄 **Export & synthèses** | Fiche commerciale, synthèse hebdomadaire PDF, tableau récapitulatif Excel. |
