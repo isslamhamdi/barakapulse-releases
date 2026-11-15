@@ -1,6 +1,6 @@
 {
-  "version": "2.4.0",
-  "url": "https://github.com/isslamhamdi/barakapulse-releases/releases/latest/download/BarakaPulse-v2.4.0.dmg",
+  "version": "2.4.1",
+  "url": "https://github.com/isslamhamdi/barakapulse-releases/releases/latest/download/BarakaPulse-v2.4.1.dmg",
   "date": "2026-11-15",
-  "notes": "Nouveaut\u00e9s : regroupement des avis par p\u00e9riode (Aujourd'hui / cette semaine\u2026), dossiers de classement personnalis\u00e9s, et veilles enregistr\u00e9es (recherches sauvegard\u00e9es)."
+  "notes": "Correction : le plein \u00e9cran (bouton vert / Plein \u00e9cran) fonctionne de nouveau."
 }
