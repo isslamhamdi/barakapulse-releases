@@ -1,6 +1,6 @@
 {
-  "version": "2.4.10",
-  "url": "https://github.com/isslamhamdi/barakapulse-releases/releases/latest/download/BarakaPulse-v2.4.10.dmg",
+  "version": "2.4.11",
+  "url": "https://github.com/isslamhamdi/barakapulse-releases/releases/latest/download/BarakaPulse-v2.4.11.dmg",
   "date": "2026-11-15",
-  "notes": "Retrait de la colonne \u00ab Source \u00bb du tableau de la synth\u00e8se hebdo (PDF et Excel)."
+  "notes": "Synth\u00e8se hebdo : objet reformul\u00e9 et bloc de signatures de direction plus professionnel."
 }
