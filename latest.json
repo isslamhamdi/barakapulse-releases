@@ -1,6 +1,6 @@
 {
-  "version": "2.4.9",
-  "url": "https://github.com/isslamhamdi/barakapulse-releases/releases/latest/download/BarakaPulse-v2.4.9.dmg",
+  "version": "2.4.10",
+  "url": "https://github.com/isslamhamdi/barakapulse-releases/releases/latest/download/BarakaPulse-v2.4.10.dmg",
   "date": "2026-11-15",
-  "notes": "R\u00e9glages accessibles depuis le menu (\u2318,), section R\u00e9glages d\u00e9plac\u00e9e en bas, libell\u00e9s de la barre lat\u00e9rale affich\u00e9s en entier."
+  "notes": "Retrait de la colonne \u00ab Source \u00bb du tableau de la synth\u00e8se hebdo (PDF et Excel)."
 }
