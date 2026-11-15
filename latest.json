@@ -1,6 +1,6 @@
 {
-  "version": "2.0.0",
+  "version": "2.1.0",
   "url": "https://github.com/isslamhamdi/barakapulse-releases/releases/latest",
   "date": "2026-11-15",
-  "notes": "- Veille concurrentielle : gagnant + montant sur les avis d'attribution\n- Suivi pipeline : A etudier -> GO -> Depose -> Gagne / Perdu\n- Recherche plein-texte (y compris la description en arabe)\n- Scan officiel + texte integral directement dans la fiche\n- Tri avis ouverts d'abord + filtre Ouverts\n- Synchronisation des sources optimisee"
+  "notes": "- Interface epuree : etat de la veille consolide (un seul indicateur clair)\n- Fiche avis : bouton vert unique « Telecharger l'avis + scan »\n- Tableau de bord simplifie et plus lisible\n- Reglages › Connexion : cle d'acces + etat de synchronisation en temps reel\n- Ecran d'accueil : libelle de menu clarifie\n- Corrections diverses et optimisation de la synchronisation"
 }
