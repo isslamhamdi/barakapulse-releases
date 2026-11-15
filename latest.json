@@ -1,6 +1,6 @@
 {
-  "version": "2.4.11",
-  "url": "https://github.com/isslamhamdi/barakapulse-releases/releases/latest/download/BarakaPulse-v2.4.11.dmg",
+  "version": "2.4.12",
+  "url": "https://github.com/isslamhamdi/barakapulse-releases/releases/latest/download/BarakaPulse-v2.4.12.dmg",
   "date": "2026-11-15",
-  "notes": "Synth\u00e8se hebdo : objet reformul\u00e9 et bloc de signatures de direction plus professionnel."
+  "notes": "Tableau de bord : retrait du badge \u00ab Surveillance active \u00bb."
 }
