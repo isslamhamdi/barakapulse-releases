@@ -1,6 +1,6 @@
 {
-  "version": "2.4.12",
-  "url": "https://github.com/isslamhamdi/barakapulse-releases/releases/latest/download/BarakaPulse-v2.4.12.dmg",
+  "version": "2.4.13",
+  "url": "https://github.com/isslamhamdi/barakapulse-releases/releases/latest/download/BarakaPulse-v2.4.13.dmg",
   "date": "2026-11-15",
-  "notes": "Tableau de bord : retrait du badge \u00ab Surveillance active \u00bb."
+  "notes": "Fen\u00eatre \u00c0 propos : ajout de la signature d\u00e9veloppeur (logo Isslam HAMDI) en bas."
 }
