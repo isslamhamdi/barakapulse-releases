@@ -93,7 +93,10 @@ Ce dépôt sert **exclusivement** à la distribution publique et aux mises à jo
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/isslamhamdi/barakapulse-releases/main/assets/isslam_hamdi.jpg" alt="Isslam HAMDI" width="230" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/isslamhamdi/barakapulse-releases/main/assets/isslam_hamdi_white.png" />
+  <img src="https://raw.githubusercontent.com/isslamhamdi/barakapulse-releases/main/assets/isslam_hamdi_dark.png" alt="Isslam HAMDI" width="230" />
+</picture>
 
 ### Conçu & développé par **Isslam HAMDI**
 *Responsable artistique — SARL Pétro Baraka*
