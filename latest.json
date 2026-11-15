@@ -1,6 +1,6 @@
 {
-  "version": "2.4.7",
-  "url": "https://github.com/isslamhamdi/barakapulse-releases/releases/latest/download/BarakaPulse-v2.4.7.dmg",
+  "version": "2.4.8",
+  "url": "https://github.com/isslamhamdi/barakapulse-releases/releases/latest/download/BarakaPulse-v2.4.8.dmg",
   "date": "2026-11-15",
-  "notes": "D\u00e9tection des mises \u00e0 jour instantan\u00e9e (plus de blocage par le cache CDN)."
+  "notes": "Fen\u00eatre \u00c0 propos : respecte le mode clair/sombre choisi dans l'app."
 }
