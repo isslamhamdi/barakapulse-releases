@@ -1,0 +1,6 @@
+{
+  "version": "2.0.0",
+  "url": "https://github.com/isslamhamdi/barakapulse-releases/releases/latest/download/BarakaPulse-v2.0.0.dmg",
+  "date": "2026-11-15",
+  "notes": "- Veille concurrentielle : gagnant + montant sur les avis d'attribution\n- Suivi pipeline : A etudier -> GO -> Depose -> Gagne / Perdu\n- Recherche plein-texte (y compris la description en arabe)\n- Scan officiel + texte integral directement dans la fiche\n- Tri avis ouverts d'abord + filtre Ouverts\n- Quota RhinoTenders optimise"
+}
