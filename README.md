@@ -1,44 +1,111 @@
-# Publier une mise à jour de BarakaPulse
+<div align="center">
 
-L'app vérifie les mises à jour en lisant `latest.json` dans un dépôt GitHub **PUBLIC**
-de distribution. Ton **code source reste privé** ; seul le DMG + ce petit fichier sont publics
-(c'est normal : le DMG est fait pour être téléchargé par l'utilisateur).
+<img src="assets/logo.png" alt="BarakaPulse" width="128" height="128" />
 
-## Mise en place (une seule fois)
+# BarakaPulse
 
-1. Crée un dépôt **public** : `github.com/isslamhamdi/barakapulse-releases`
-   (si tu choisis un autre nom, change l'URL dans `scripts/NativeBarakaPulse.swift` →
-   `AppInfo.updateManifestURL`).
-2. Mets `latest.json` à la racine de ce dépôt (branche `main`).
+### Veille stratégique des marchés publics algériens
 
-## À chaque nouvelle version
+*L'intelligence économique de la commande publique, en continu, sur votre Mac.*
 
-1. Dans `scripts/NativeBarakaPulse.swift`, incrémente `AppInfo.version` (ex. `2.1.0`)
-   et dans `scripts/build_dmg.sh` la variable `VERSION`. Recompile : `bash scripts/build_dmg.sh`.
-2. Sur le dépôt **public** `barakapulse-releases` :
-   - Crée une **Release** taguée `v2.1.0`.
-   - Joins le fichier `dist/BarakaPulse-v2.1.0.dmg` comme **asset** de la Release.
-3. Mets à jour `latest.json` (à la racine du dépôt public) :
-   ```json
-   {
-     "version": "2.1.0",
-     "url": "https://github.com/isslamhamdi/barakapulse-releases/releases/latest/download/BarakaPulse-v2.1.0.dmg",
-     "date": "2026-12-01",
-     "notes": "- Nouveautés de la version…"
-   }
-   ```
-   - `version` : doit être **supérieure** à celle installée pour déclencher l'alerte.
-   - `url` : lien direct du DMG (l'asset de la Release). `releases/latest/download/<nom-exact-du-dmg>`.
-   - `notes` : texte affiché à l'utilisateur (sauts de ligne avec `\n`).
-   - `date` : facultatif, affiché entre parenthèses.
-4. Commit `latest.json`. C'est tout.
+<br/>
 
-## Côté utilisateur
+[![Dernière version](https://img.shields.io/github/v/release/isslamhamdi/barakapulse-releases?label=version&style=for-the-badge&color=2E8B57&labelColor=0D1117)](https://github.com/isslamhamdi/barakapulse-releases/releases/latest)
+[![Télécharger](https://img.shields.io/badge/t%C3%A9l%C3%A9charger-.dmg-2E8B57?style=for-the-badge&logo=apple&logoColor=white&labelColor=0D1117)](https://github.com/isslamhamdi/barakapulse-releases/releases/latest/download/BarakaPulse.dmg)
+[![Plateforme](https://img.shields.io/badge/macOS-12%2B%20·%20Apple%20Silicon-000000?style=for-the-badge&logo=apple&logoColor=white&labelColor=0D1117)](#-installation)
 
-- **Au lancement** : l'app vérifie en silence. Si une version plus récente existe, une fenêtre
-  « Mise à jour disponible » s'affiche avec les nouveautés + bouton **Télécharger**.
-- **Manuellement** : menu **BarakaPulse › Rechercher les mises à jour…**.
-- Le téléchargement ouvre le DMG ; l'utilisateur glisse BarakaPulse dans Applications (remplace l'ancienne).
+![Swift](https://img.shields.io/badge/SwiftUI%20+%20AppKit-FA7343?style=flat-square&logo=swift&logoColor=white)
+![100% natif](https://img.shields.io/badge/100%25-natif-2E8B57?style=flat-square)
+![Mises à jour auto](https://img.shields.io/badge/mises%20à%20jour-automatiques-2E8B57?style=flat-square)
+[![Téléchargements](https://img.shields.io/github/downloads/isslamhamdi/barakapulse-releases/total?style=flat-square&label=téléchargements&color=2E8B57)](https://github.com/isslamhamdi/barakapulse-releases/releases)
+![Licence](https://img.shields.io/badge/licence-propriétaire-informational?style=flat-square)
 
-> ℹ️ Pas de signature Apple ni de Sparkle : mécanisme volontairement simple et sans dépendance.
-> La comparaison de version est sémantique (`2.10.0` > `2.9.0`).
+<br/>
+
+**[⬇️ Télécharger la dernière version](https://github.com/isslamhamdi/barakapulse-releases/releases/latest)** · **[📋 Notes de version](https://github.com/isslamhamdi/barakapulse-releases/releases)**
+
+</div>
+
+---
+
+## ✨ Présentation
+
+**BarakaPulse** est une application macOS native dédiée à la **veille des appels d'offres et marchés publics** en Algérie. Elle détecte en continu les opportunités pertinentes, les classe, les priorise par échéance et les présente dans une interface soignée, pensée comme un client de messagerie professionnel.
+
+Conçue pour les équipes commerciales et les décideurs, elle transforme un flux dispersé d'avis publics en un **tableau de bord décisionnel** clair : ce qui est ouvert, ce qui est urgent, ce qui mérite une réponse.
+
+> Éditée par **SARL Pétro Baraka** — Zone Industrielle, Biskra, Algérie.
+
+---
+
+## 🎯 Fonctionnalités clés
+
+| | |
+|---|---|
+| 📡 **Veille en continu** | Détection automatique des nouveaux avis, filtrée sur vos mots-clés (FR / arabe / anglais). |
+| 🗂️ **Organisation façon Outlook** | Regroupement par période, dossiers personnalisés, veilles enregistrées, badges de non-lus. |
+| ⏱️ **Priorité par échéance** | Les avis encore soumissionnables remontent en tête, les clôturés passent en bas. |
+| 📥 **Archivage** | Rangez les avis traités (gagnés / perdus) sans les supprimer. |
+| 📄 **Export & synthèses** | Fiche commerciale, synthèse hebdomadaire PDF, tableau récapitulatif Excel. |
+| 🏢 **Veille concurrentielle** | Sur les avis d'attribution : identification du gagnant et du montant. |
+| 🔔 **Suivi de soumission** | Pipeline À étudier → GO → Déposé → Gagné / Perdu. |
+| 🔄 **Mises à jour automatiques** | Téléchargement, installation et relancement, sans quitter l'application. |
+
+---
+
+## 💾 Installation
+
+1. **[Télécharger `BarakaPulse.dmg`](https://github.com/isslamhamdi/barakapulse-releases/releases/latest/download/BarakaPulse.dmg)**
+2. Ouvrir l'image disque, puis **glisser** l'application dans le dossier `Applications`.
+3. Au premier lancement : clic droit sur l'app → **Ouvrir** (signature ad-hoc).
+
+> **Configuration requise :** macOS 12 (Monterey) ou ultérieur · Mac Apple Silicon.
+
+---
+
+## 🔄 Mises à jour
+
+L'application vérifie automatiquement les nouvelles versions au lancement, et à la demande via **BarakaPulse › Rechercher les mises à jour…**
+
+Lorsqu'une version est disponible, la mise à jour se fait **en un clic** : téléchargement avec barre de progression, installation et redémarrage automatiques — aucune manipulation manuelle, aucun navigateur.
+
+---
+
+## 🛠️ Sous le capot
+
+- **Interface** — 100 % native, **SwiftUI + AppKit** (aucun framework web).
+- **Moteur de veille** — service local léger, synchronisation automatique.
+- **Stockage** — base locale chiffrée au format SQLite, sur votre machine.
+- **Distribution** — ce dépôt **public** héberge uniquement l'installeur `.dmg` et le manifeste de version `latest.json`. *Le code source reste privé.*
+
+---
+
+## 📦 À propos de ce dépôt
+
+Ce dépôt sert **exclusivement** à la distribution publique et aux mises à jour de BarakaPulse :
+
+| Fichier | Rôle |
+|---|---|
+| `latest.json` | Manifeste lu par l'application pour détecter les nouvelles versions. |
+| Releases | Chaque version publiée, avec son installeur `.dmg`. |
+
+---
+
+<div align="center">
+
+### Conçu & développé par **Isslam HAMDI**
+*Responsable artistique — SARL Pétro Baraka*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-isslamhamdi-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/isslamhamdi/)
+[![GitHub](https://img.shields.io/badge/GitHub-isslamhamdi-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/isslamhamdi)
+
+<br/>
+
+<sub>© 2026 SARL Pétro Baraka · Biskra, Algérie. Tous droits réservés.</sub><br/>
+<sub>BarakaPulse et ses données sont protégés. Toute reproduction ou distribution non autorisée est interdite.</sub>
+
+<br/>
+
+**Pétro Baraka — Symbole de confiance.**
+
+</div>
