@@ -1,6 +1,6 @@
 {
-  "version": "2.4.3",
-  "url": "https://github.com/isslamhamdi/barakapulse-releases/releases/latest/download/BarakaPulse-v2.4.3.dmg",
+  "version": "2.4.4",
+  "url": "https://github.com/isslamhamdi/barakapulse-releases/releases/latest/download/BarakaPulse-v2.4.4.dmg",
   "date": "2026-11-15",
-  "notes": "Badges de non-lus par dossier dans la barre lat\u00e9rale."
+  "notes": "Archivage des avis trait\u00e9s (gagn\u00e9/perdu) sans suppression, et fen\u00eatre \u00c0 propos opaque."
 }
